@@ -64,7 +64,7 @@ async def download_all_sites():
         for result in results:
             max_temperature.append(result)
 
-        print(f"The average max temperature tomorrow will be: {mean(max_temperature)}")  # noqa: T201
+        print(f"The average max temperature tomorrow will be: {round(mean(max_temperature))}")  # noqa: T201
 
 
 print("Time-1", time.strftime("%X"))  # noqa: T201
