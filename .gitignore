@@ -127,3 +127,23 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+.idea/
+__pycache__
+.DS_Store
+
+# Text backup files
+*.bak
+
+# Database
+*.sqlite3
+dev.env
+countasync.py
+cpu_mp.py
+cpu_non_concurrent.py
+io_asyncio.py
+io_mp.py
+io_non_concurrent.py
+io_threading.py
+io_threading_counter.py
