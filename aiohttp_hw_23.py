@@ -60,7 +60,7 @@ async def download_all_sites():
             get_weather_open_meteo(session),
             get_weather_weatherstack(session),
         )
-        print("results:", results)
+        print("results:", results)  # noqa: T201
         print(f"The average max temperature tomorrow will be: {round(mean(results))}")  # noqa: T201
 
 
